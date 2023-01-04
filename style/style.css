@@ -2,3 +2,24 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+/* hrader and navision style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 51px 226px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    margin-left: 52px;
+}
+nav li{
+    list-style: none;
+    margin-left: 52px;
+}
+.text-primary{
+    color: #FD6E0A;
+}
