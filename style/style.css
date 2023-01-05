@@ -1,6 +1,7 @@
 *{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    padding: 0;
 }
 
 .text-primary{
@@ -155,4 +156,68 @@ main{
     margin-top: 130px;
     font-size: 35px;
     text-align: center;
+}
+.ragime-contant{
+    margin-top: 35px;
+    display: flex;
+    gap: 24px;
+}
+.ragime-title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.title{
+    font-weight: 700;
+font-size: 25px;
+color: #474747;
+}
+.sub-title{
+    font-weight: 600;
+font-size: 20px;
+color: #757575;
+}
+.dispratione{
+    font-weight: 400;
+font-size: 16px;
+color: #757575;
+
+}
+
+.ragime-button{
+    margin-top: 30px;
+    text-align: center;
+}
+/* contact style */
+.contact{
+    display: flex;
+    margin-top: 50px;
+    /* justify-content: center; */
+    gap: 120px;
+    background: #FFF8F3;
+    padding: 150px 200px;
+}
+.contact.section-titals{
+    text-align: center;
+}
+.contact,input[type="text"],[type="email"],textarea{
+    margin-bottom: 20px;
+    border: 0;
+    width: 80%;
+    padding: 14px 35px;
+}
+.contact a{
+    text-decoration: none;
+    
+}
+.contact-dispration{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #474747;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+input{
+    height: 65px;
 }
